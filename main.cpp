@@ -14,3 +14,4 @@
 #include "./widgets/gui/label.cpp"
 #include "./widgets/gui.cpp"
 #include "./widgets/touchManager.cpp"
+#include "./others/paxo-debug-bridge/main.hpp"

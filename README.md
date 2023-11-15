@@ -1,8 +1,8 @@
-# PaxOS 8
+# EletrixOS 8
 
-![Logo of the paxo project](logo.png)
+![EletrixOS Logo](logo.png)
 
-**PaxOS 8** is the latest version of **PaxOS**, a lightweight operating system for PaxoPhones. 
+**EletrixOS** is a very cool fork of PaxOS
 
 ## what's new ?
 
@@ -18,6 +18,10 @@ The homepage features 8 simplistic apps but none too many:
 - The Map to calculate its GPS coordinates
 - The Snake
 - The game 2048
+- Installer
+- PDB (paxo debug bridge)
+- LUA
+
 
 Many improvements are coming soon.
 

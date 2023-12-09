@@ -7,15 +7,12 @@ import argparse
 import requests 
 import zipfile
 
-print("""
-    [+] Paxo Builder 0.1
-    [+] Join the paxo discord for help !
-    """)
-
 argParser = argparse.ArgumentParser()
 argParser.add_argument("-n", "--build", help="Build (win/linux)")
 args = argParser.parse_args()
 if args.build and args.build == "win":
+    print("[+] Paxo Builder 0.1")
+    print("[+] Building for Windows")
     print("[+] Downloading the source code via github...")
     os.system("git clone https://github.com/paxo-phone/PaxOS-8.git paxos")
     print("[+] Downloading CMake")

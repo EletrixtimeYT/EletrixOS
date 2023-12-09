@@ -30,6 +30,13 @@ if args.build and args.build == "win":
     print("[+] Done :D")
     
 elif args.build and args.build == "linux":
-    print("[+] Cooming Soon !")
+    print("[+] Paxo Builder 0.1")
+    print("[+] Building for Linux")
+    print("[+] Downloading the source code via github...")
+    os.system("git clone https://github.com/paxo-phone/PaxOS-8.git paxos")
+    print("[+] Installing dependencies")
+    os.system("sudo apt-get install build-essentials")
+    os.system("cd paxos/ && git submodule init && git submodule update && cmake . && make")
+    print("[+] Done :D")
 else:
     print("[+] Unknow arguments for --build (type --build win for building on windows and --build linux for building on linux)")

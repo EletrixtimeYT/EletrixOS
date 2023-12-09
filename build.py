@@ -1,6 +1,5 @@
 # Paxo Builder 0.1
 # Made by EletrixTime
-# Join the paxo discord for help ! : https://discord.gg/GKh4VMk7MS
 
 import os
 import sys
@@ -10,7 +9,7 @@ import zipfile
 
 print("""
     [+] Paxo Builder 0.1
-    [+] Join the paxo discord for help ! : https://discord.gg/GKh4VMk7MS
+    [+] Join the paxo discord for help !
     """)
 
 argParser = argparse.ArgumentParser()
